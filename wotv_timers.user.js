@@ -33,8 +33,8 @@ function padTime(i) {
 
 function formatTime(h,m,s, max) {
 	var color = "white";
-  if(h == 0 && m < 30) { color = "red"; }
-  if(h == max-1 && m > 30) { color = "lime" }
+  if(h == 0 && m < 30) { color = "crimson"; }
+  if(h == max-1 && m > 30) { color = "springgreen" }
   
   return "<span style='color:" + color + "'>" +
   h + "h " + m + "m " + s +"s</span>";
