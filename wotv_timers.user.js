@@ -193,7 +193,7 @@ function guildUpdate(now) {
 }
 
 var bonusList = ["Sunday Bonus:<br>&nbsp;Unlimited Gil Chamber",
-                 "Monday Bonus:<br>&nbsp;2x EXP Gil Ore Eggs Pots",
+                 "Monday Bonus:<br>&nbsp;2x Exp Gil Ore Eggs Pots Chambers",
                  "Tuesday Bonus:<br>&nbsp;2x <span style='color:red'>Fire</span> & <span style='color:lime'>Wind</span> Chambers",
                  "Wednesday Bonus:<br>&nbsp;2x <span style='color:dodgerblue'>Water</span> & <span style='color:cyan'>Ice</span> Chambers",
                  "Thursday Bonus:<br>&nbsp;2x <span style='color:orange'>Earth</span> & <span style='color:MediumOrchid'>Dark</span> Chambers",
