@@ -23,7 +23,7 @@ You will need to install a Userscript extension to your web browser.
 * Chrome: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 * Safari: [Tampermonkey](https://www.tampermonkey.net/?browser=safari)
 
-After the extension is installed, download [wotv_timers.userscript.js](wotv_timers.user.js) to install the script.
+After the extension is installed, download [wotv_timers.userscript.js](https://github.com/KataiKi/wotv_timers/raw/master/wotv_timers.user.js) to install the script.
 
 ## Options
 
