@@ -7,6 +7,11 @@
 // @grant    none
 // ==/UserScript==
 
+//Options
+var align = "left";  //Box alignment on page: left,right
+var background = true; //Add background to box for readability: true,false
+//var server = "JP"; //Which server timer to use: GL,JP
+
 var timerBox;
 var worldTime;
 var dailyTime;
@@ -14,12 +19,6 @@ var shopTime;
 var summonTime;
 var guildTime;
 var bonusTime;
-
-
-//Options
-var align = "left";  //Box alignment on page: left,right
-var background = true; //Add background to box for readability: true,false
-//var server = "JP"; //Which server timer to use: GL,JP
 
 Date.prototype.addHours = function(h) {
   this.setTime(this.getTime() + (h*60*60*1000));
