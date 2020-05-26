@@ -5,6 +5,7 @@
 // @include  https://old.reddit.com/r/wotv_ffbe/*
 // @version  1
 // @grant    none
+// @namespace https://github.com/KataiKi/wotv_timers
 // ==/UserScript==
 
 //Options
@@ -191,14 +192,13 @@ function guildUpdate(now) {
 
 }
 
-
 var bonusList = ["Sunday Bonus:<br>&nbsp;Unlimited Gil Chamber",
                  "Monday Bonus:<br>&nbsp;2x EXP Gil Ore Eggs Pots",
-                 "Tuesday Bonus:<br>&nbsp;2x Fire & Wind Chambers",
-                 "Wednesday Bonus:<br>&nbsp;2x Water & Ice Chambers",
-                 "Thursday Bonus:<br>&nbsp;2x Earth & Dark Chambers",
-                 "Friday Bonus:<br>&nbsp;2x Lightning & Light Chambers",
-                 "Saturday Bonus:<br>&nbsp;2x Advanced Training Chamber<br>&nbsp;Unlimited Gil & Ore Chamber"
+                 "Tuesday Bonus:<br>&nbsp;2x <span style='color:red'>Fire</span> & <span style='color:lime'>Wind</span> Chambers",
+                 "Wednesday Bonus:<br>&nbsp;2x <span style='color:dodgerblue'>Water</span> & <span style='color:cyan'>Ice</span> Chambers",
+                 "Thursday Bonus:<br>&nbsp;2x <span style='color:orange'>Earth</span> & <span style='color:MediumOrchid'>Dark</span> Chambers",
+                 "Friday Bonus:<br>&nbsp;2x <span style='color:yellow'>Lightning</span> & <span style='color:Linen'>Light</span> Chambers",
+                 "Saturday Bonus:<br>&nbsp;2x <span style='color:hotpink'>Advanced Training</span> Chamber<br>&nbsp;Unlimited Gil & Ore Chamber"
                 ]
 
 function bonusUpdate(now) {
